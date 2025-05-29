@@ -1,0 +1,16 @@
+import { PageData } from '../../types';
+import { cleanParagraphs } from '../dataUtils';
+
+const CHAPTER_1_TITLE = "Chương 1: Marketing – Tạo Giá Trị và Thu Hút Khách Hàng";
+
+export const chap1SecIPageData: PageData = {
+  id: 'chap1-secI',
+  chapterTitle: CHAPTER_1_TITLE,
+  pageTitle: "I. Giới thiệu: Marketing là Gì?",
+  paragraphs: cleanParagraphs([
+    "Marketing, trong thực tiễn đương đại, vượt xa những quan niệm truyền thống chỉ tập trung vào bán hàng và quảng cáo. Mặc dù các hoạt động này là những biểu hiện hữu hình của marketing, bản chất của nó lại sâu sắc và phức tạp hơn nhiều. Một cách đơn giản, marketing là quá trình thu hút khách hàng và quản lý các mối quan hệ khách hàng có khả năng sinh lời. Mục tiêu kép của marketing bao gồm: thứ nhất, thu hút khách hàng mới bằng cách cam kết và cung cấp giá trị vượt trội; thứ hai, duy trì và phát triển lượng khách hàng hiện tại thông qua việc mang lại sự hài lòng và giá trị liên tục.",
+    "Để minh họa, hãy xem xét trường hợp của tập đoàn Amazon. Thành công vượt bậc của Amazon không chỉ dựa trên việc cung cấp một trang web bán lẻ trực tuyến tiện lợi; nó bắt nguồn từ sự ám ảnh của công ty đối với khách hàng. Amazon thấu hiểu sâu sắc nhu cầu của khách hàng về sự tiện lợi, lựa chọn đa dạng, giá cả cạnh tranh và trải nghiệm mua sắm liền mạch. Họ liên tục đổi mới để đáp ứng và thậm chí vượt trên cả những nhu cầu này, từ việc giao hàng nhanh chóng với Prime, đến các đề xuất được cá nhân hóa dựa trên dữ liệu, cho đến các thiết bị như Kindle và Alexa tích hợp sâu vào hệ sinh thái của họ. Amazon không chỉ bán sản phẩm; họ mang đến giá trị thông qua một hệ thống phức tạp được thiết kế để làm cho cuộc sống của khách hàng dễ dàng hơn. Chiến lược marketing của họ không chỉ là quảng cáo, mà là toàn bộ trải nghiệm khách hàng được xây dựng tỉ mỉ.",
+    "Khác với nhận định rằng marketing chỉ là \"chào hàng và bán hàng\", marketing hiện đại đặt trọng tâm vào việc thấu hiểu và thỏa mãn nhu cầu của khách hàng. Nếu các chuyên gia marketing thực hiện hiệu quả việc thu hút người tiêu dùng, nắm bắt nhu cầu của họ, phát triển các sản phẩm mang lại giá trị ưu việt, đồng thời định giá, phân phối và quảng bá một cách hợp lý, thì sản phẩm sẽ được thị trường đón nhận một cách tự nhiên. Theo Peter Drucker, một nhà tư tưởng quản trị hàng đầu, \"mục đích của marketing là làm cho khâu bán hàng trở nên không cần thiết\". Bán hàng và quảng cáo chỉ là một phần của một \"tổ hợp marketing\" (marketing mix) lớn hơn – một bộ công cụ marketing hoạt động cùng nhau để thu hút khách hàng, thỏa mãn nhu cầu của họ và xây dựng mối quan hệ với khách hàng.",
+    "Do đó, một định nghĩa chính thức và bao quát hơn về marketing là: <strong>một quy trình mà qua đó các công ty thu hút khách hàng, xây dựng mối quan hệ chặt chẽ với khách hàng và tạo ra giá trị cho khách hàng, nhằm mục đích thu nhận lại giá trị từ chính khách hàng đó.</strong> Quy trình này không chỉ là một chức năng riêng lẻ trong doanh nghiệp mà là một mạng lưới phức hợp bao gồm con người, công nghệ và các hoạt động cạnh tranh nhằm thu hút sự chú ý và hành vi mua hàng của người tiêu dùng."
+  ]),
+};
